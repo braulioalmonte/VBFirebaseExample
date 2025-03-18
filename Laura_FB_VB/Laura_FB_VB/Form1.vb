@@ -6,8 +6,7 @@ Public Class Form1
 
     Private fcon As New FirebaseConfig() With
     {
-         .AuthSecret = "ZsPtUUsc0svyz6dQx4iou49JSIAW2bf7czgdHIQq",
-         .BasePath = "https://fir-vb-15ab0.firebaseio.com/"
+         
     }
 
     Private fclient As IFirebaseClient
